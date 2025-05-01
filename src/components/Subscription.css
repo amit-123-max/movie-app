@@ -1,0 +1,119 @@
+/*   --------------Amit Singh-------- */
+
+.subscription .head {
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; /* pushes items to left and right */
+    align-items: center;
+    padding: 0 40px; /* space on left and right */
+    position: relative;
+  }
+
+.subscription .text{
+    font-size: 40px;
+    padding-left: 210px;
+}
+
+.subscription .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    padding: 10px;
+    
+}
+
+.subscription .box{
+    height: 800px;
+    width: 250px;
+    
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 1.4rem;
+    transition: all 0.3s ease;
+}
+
+.subscription .box:hover{
+    transform: scale(1.05);
+}
+
+.subscription .inside{
+    height: 80px;
+    width: auto;
+    background-image: linear-gradient(to right,#002699,#0055ff);
+    border-radius: 1rem;
+    margin: 8px;
+    color: aliceblue;
+    padding: 20px;
+    font-size:x-large;
+    font-weight:400;
+
+}
+
+.subscription #ins-3{
+    background-image: linear-gradient(to bottom right,#002699,#0055ff, #ff6666);
+}
+
+.subscription #ins-2{
+    background-image: linear-gradient(to bottom right,#002699,#0055ff, #9966ff);
+}
+
+.subscription #ins-1{
+    background-image: linear-gradient(to bottom right,#002699,#0055ff, #ddccff);
+}
+
+
+.subscription .text-section-1{
+    
+    padding: 20px;
+}
+
+.subscription #mode{
+    margin-left: 1100px;
+    font-size:large;
+    
+}
+
+.subscription #mode:hover{
+    background-color:cadetblue;
+}
+
+
+.subscription .dark{
+    color: white;
+    background-color: black;
+}
+.subscription .light{
+    color: black;
+    background-color: white;
+}
+
+.subscription .dark .box{
+    border: 1px solid white;
+}
+
+
+/* .dark .head{
+    background-color: white;
+} */
+
+
+.subscription .main-1 {
+    width: 100vw;
+    height: 100%;
+    padding-top: 300px; /* ADD THIS */
+    margin: 0;
+    overflow-x: hidden;
+    max-width: 100vw;
+    position: relative;
+}
+
+body:has(.subscription), html:has(.subscription) {
+    width: 10%;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}

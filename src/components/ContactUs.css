@@ -1,0 +1,75 @@
+/* src/components/ContactUs.css */
+
+/* Header gradient */
+.contact-header {
+  background: linear-gradient(
+    90deg,
+    rgba(205,1,49,1) 0%,
+    rgba(191,1,48,1) 10%,
+    rgba(2,0,36,1) 90%,
+    rgba(21,8,4,1) 100%
+  );
+  padding: 1rem 0;
+}
+
+.header-content .logo {
+  height: 80px;
+  object-fit: contain;
+}
+
+.signin-btn {
+  border-color: #fff;
+  color: #fff;
+}
+
+/* Section background */
+.contact-section {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Yap0dtiah-raRAiYyQCZvfvU8k3gM5LY5g&s')
+    center/cover no-repeat;
+  padding: 4rem 0;
+}
+
+.contact-title {
+  font-weight: bold;
+}
+
+.issue-input {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #dc3545;
+  border-radius: 10px;
+  width: 400px;
+}
+.issue-input:focus {
+  background-color: #222;
+  outline: none;
+  box-shadow: none;
+}
+
+.quick-links a {
+  color: aliceblue;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.quick-links a:hover {
+  color: aqua;
+}
+
+/* Footer gradient */
+.contact-footer {
+  background: linear-gradient(
+    90deg,
+    rgba(3,0,0,1) 30%,
+    rgba(130,2,2,1) 70%,
+    rgba(0,212,255,1) 100%
+  );
+}
+
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-container a:hover {
+  color: aqua;
+}
